@@ -1,7 +1,8 @@
 class Player
-  attr_accessor :current_life
+  attr_accessor :current_life, :name
 
-  def initialize
+  def initialize(name)
+    @name = name
     @current_life = 3
   end
 
